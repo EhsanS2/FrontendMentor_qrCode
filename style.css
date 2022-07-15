@@ -1,0 +1,55 @@
+* {
+    /* reset attributes */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(212, 45%, 89%);
+}
+@font-face {
+    font-family: Outfit;
+    src: url(./fonts/Outfit-Bold.ttf);
+}
+@font-face {
+    font-family: Outfit-thin;
+    src: url(./fonts/Outfit-Light.ttf);
+}
+.container {
+    width: 250px;
+    height: 380px;
+    background-color: hsl(0, 0%, 100%);
+    margin: 150px auto;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0 0 10px #ccc;
+}
+.container img {
+    width: 100%;
+    border-radius: 10px;
+}
+.qrCode {
+    margin: 0 auto;
+}
+.text {
+    font-family: Outfit;
+    text-align: center;
+}
+.text h3 {
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    margin-top: 10px;
+}
+.text p {
+    font-family: Outfit-thin;
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
+    padding: 10px;
+    font-size: 12px;
+}
+
+@media (max-width:375px) {
+    .container {
+        
+    }
+}
